@@ -1,17 +1,17 @@
 # ✈️ Airline Data Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes airline operations data to uncover insights related to revenue, passenger trends, aircraft performance, and operational efficiency.
 Data was extracted from a SQLite database, processed using Python, and visualized using an interactive dashboard in Power BI.
 This project focuses on analyzing airline operations data to uncover insights related to revenue, passenger trends, aircraft performance, and operational efficiency. The data was extracted from a SQLite database, processed using Python, and visualized through an interactive dashboard in Power BI.
 
-## 🛠️ Tech Stack
+## Tech Stack
 Python (Pandas, SQLite3)
 Power BI
 SQL
 Power Query
 
-## 📂 Dataset Description
+## Dataset Description
 The dataset consists of multiple relational tables:
 - aircrafts_data → Aircraft details
 - airports_data → Airport & city information
@@ -21,16 +21,16 @@ The dataset consists of multiple relational tables:
 - boarding_passes → Passenger boarding data
 - seats → Aircraft seating capacity
 
-## ⚙️ Data Processing
+## Data Processing
 Connected and extracted data from SQLite database
 Cleaned and handled missing values
 Merged multiple tables into a single analytical dataset
 Created new features:
-📅 Month-Year column
-👥 Passenger count per flight
-💺 Seat capacity per aircraft
-📊 Occupancy rate (load factor)
-📈 Booking count per date
+- Month-Year column
+- Passenger count per flight
+- Seat capacity per aircraft
+- Occupancy rate (load factor)
+- Booking count per date
 
 ## Key Analysis Performed: 
 - Revenue trend over time
@@ -45,7 +45,7 @@ Created new features:
 - Some aircraft operate below optimal capacity, indicating inefficiencies.
 - Aircraft SU9 generates the most revenue among all and only 773 aircraft offers all three fare conditions.
 
-## 🚀 Business Recommendations
+## Business Recommendations
 Focus on premium (Business class) customers
 Optimize underutilized aircraft
 Implement dynamic pricing strategies
